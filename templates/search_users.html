@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search Users</title>
+</head>
+<body>
+     <h1>Search Users</h1>
+    <form method="post">
+        {% csrf_token %}
+        <input type="text" name="search_query" placeholder="Enter username">
+        <button type="submit">Search</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search Results</title>
+</head>
+<body>
+    <h1>Search Results</h1>
+    <ul>
+        {% for user in users %}
+            {% if user.id %}
+                <li>{{ user.id }}: {{ user.username }} - {{ user.email }} - {{ user.password }}</li>
+            {% else %}
+                <li>{{ user.0 }}: {{ user.1 }} - {{ user.2 }} - {{ user.3 }}</li>
+            {% endif %}
+        {% empty %}
+            <li>No users found</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
