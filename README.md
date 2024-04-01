@@ -58,10 +58,10 @@ SELECT * FROM users;
 +----+----------+-------------------+----------+
 ```
 
-### Django User Search Documentation
+### Django Application Installation and Implementation
 
 This Django application is designed to manage users and their data using a MySQL database. It provides a user-friendly interface to view, add, update, and delete user records.
-Set up and installation steps:
+**Set up and installation steps:**
 
 1. Install Django and the MySQL database adapter:
 ```bash
@@ -107,7 +107,7 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
-#### Implementation
+**Implementation**
 
 This Django application provides functionality to search for users in a database. It includes both vulnerable and protected versions of user search functionality to demonstrate the importance of protecting against SQL injection attacks.
 
