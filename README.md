@@ -7,7 +7,11 @@ In Django web applications, SQL injection poses a significant security risk. Thi
 This documentation illustrates an example of an SQL injection vulnerability in a Django view and demonstrates how to mitigate it using Django's ORM and parameterized queries.
 
 ### Database
-To demonstrate SQL injection, a database "my_database" was created to store information about users within the application. It contains the table "users" which stores user accounts including their names, email addresses and passwords.
+To demonstrate SQL injection vulnerabilities, a MySQL database named "my_database" was created to manage user information within the application. This database includes a table named "users," designed to store user account details such as usernames, email addresses, and passwords.
+
+MySQL was selected as the database management system due to its widespread usage, robust performance, and comprehensive features. Its compatibility with Django and seamless integration capabilities make it an ideal choice for storing and managing application data securely.
+
+Throughout this demonstration, MySQL serves as the underlying database engine, facilitating the exploration and mitigation of SQL injection vulnerabilities within Django web applications.
 
 **1. Creating the "users" table:**
 ```sql
