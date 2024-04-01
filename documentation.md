@@ -197,10 +197,10 @@ It is recommended to always use parameterized queries or Django's ORM for databa
 Upon receiving a search query "admin", the view executes a secure database query to retrieve user information matching the specified criteria.
 
 **Request**
-![img_3.png](img_3.png)
+![request for search by admin](documentation_images/request_admin.png)
 
 **Search Results**
-![img_2.png](img_2.png)
+![result of search by admin](documentation_images/result_admin.png)
 
 The search query "admin" is processed by the view to search for users in the database. The query returns a single result corresponding to the username "admin". Subsequently, the user's information, including their email address and password, is presented.
 
@@ -241,11 +241,11 @@ By monitoring the logs or responses from the controlled server, the attacker ind
 
 **Vulnerable View Result:**
 
-![In-band SQLi Vulnerable](img_6.png "searchVulnerable")
+![In-band SQLi Vulnerable](documentation_images/searchVulnerable.png "searchVulnerable")
 
 **Secure View Result:**
 
-![In-band SQLi Protected](img_7.png "searchProtected")
+![In-band SQLi Protected](documentation_images/searchProtected.png "searchProtected")
 
 ### Conclusion:
 

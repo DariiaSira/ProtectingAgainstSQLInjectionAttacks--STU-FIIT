@@ -6,7 +6,6 @@ class User(models.Model):
     password = models.CharField(max_length=255)
 
     class Meta:
-        app_label = 'users'
         db_table = 'users'
 
     def __str__(self):
