@@ -1,0 +1,3 @@
+http://127.0.0.1:8000/searchProtected/ (POST)  # sqlmap.py -u http://127.0.0.1:8000/searchProtected/ --data=search_query=admin --level=2 --risk=2
+
+search_query=admin
