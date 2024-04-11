@@ -20,6 +20,8 @@ from testapp import views
 
 urlpatterns = [
     path('', views.index, name='index'),
+
+
     path('searchVulnerable/', views.search_users_info_vulnerable, name='searchVulnerable'),
     path('searchProtected/', views.search_users_info_protected, name='searchProtected'),
 ]
