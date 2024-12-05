@@ -1,4 +1,7 @@
-## Protecting Against SQL Injection Attacks
+# Protecting Against SQL Injection Attacks
+The SQLiTest repository is a school project that demonstrates SQL injection vulnerabilities in Django applications and explores their exploitation using SQLmap. It provides examples of both vulnerable and secure code implementations, highlighting the importance of proper input handling and the use of Django's ORM to prevent such attacks. Additionally, the project includes documentation and test cases to facilitate understanding and analysis of SQL injection scenarios.
+
+## Documentation
 
 ### Introduction:
 
